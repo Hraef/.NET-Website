@@ -1,0 +1,254 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body id="top" class="ss-preload">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="row s-header__nav-wrap">
+            <nav class="s-header__nav">
+                <ul>
+                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+                    <li><a class="smoothscroll" href="#about">About</a></li>
+                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
+                    <li><a class="smoothscroll" href="#certifications">Certifications</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </div> <!-- end row -->
+        
+        <a class="s-header__menu-toggle" href="#0" title="Menu">
+            <span class="s-header__menu-icon"></span>
+        </a>
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <div class="s-hero__content-about">
+
+                    <h1>I'm Harmon Raef.</h1>
+
+                    <h3>
+                        Hi, I'm Harmon, I am a cloud professional and this portfolio website is hosted in Azure, and was deployed using Terraform. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+                        and learn more <a class="smoothscroll" href="#about">about me</a>.
+                    </h3>
+
+                    <div class="s-hero__content-social">
+                        <a href="https://github.com/Hraef" target="blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/in/harmon-raef" target="blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+
+                </div> <!-- end s-hero__content-about -->
+
+            </div>
+        </div> <!-- s-hero__content -->
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> <!-- s-hero__scroll -->
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row">
+            <div class="column large-3 tab-12">
+                <img class="s-about__pic" src="images/avatars/profile-pic.jpg" alt="">
+            </div>
+            <div class="column large-9 tab-12 s-about__content">
+                <h3>About Me</h3>
+                <p>
+                    Hi, I'm Harmon, I Currently work for Nuance (A Microsoft owned Company) as a Service Reliability Center Engineer. I have supported resources and applications in both Enterprise and Govt cloud solutions.
+                    I love learning new technologies and I'm currently studying <font color=green>Terraform, Jenkins, Python and Dev Ops</font>!  
+                </p>
+
+                <hr>
+
+                <div class="row s-about__content-bottom">
+                    <div class="column w-1000-stack">
+                        <h3>Contact Details</h3>
+                        <p>
+                        Harmon Raef <br>
+                        USA <br>
+                        <a href="tel:+1975432345">(210)-385-5937</a> <br>
+                        <a href="mailto:#0">harmonraef@gmail.com</a>
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> <!-- end row -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- resume
+    ================================================== -->
+    <section id="resume" class="s-resume target-section">
+        
+        <div class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Career</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Nuance: A Microsoft owned Company</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Service Reliability Center Engineer</span> 
+                            <span class="resume-block__header-date">
+                                2022 - Present
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        <li>Configure, Maintain and Monitor multiple Azure subscriptions</li>
+                        <li>Monitor Azure Kubernetes Services (AKS)</li>
+                        <li>Handling of incident in Microsoft’s Incident Center Management (ICM)</li>
+                        <li>Provide customer facing support for several severity level incidents</li>
+                        <li>Determine appropriate customer service impact according to Service Level Agreement</li>
+                        <li>Communicate and work effectively in a team environment</li>
+                        <li>Provide support and feedback to higher levels of support</li>
+                        <li>Use Jarvis dashboard and queries to monitor infrastructure health</li>
+                        <li>Configure automation tasks using Python in Geneva automation</li>
+                        <li>Start, maintain, and triage appropriate teams during bridges</li>
+                        <li>Create documentation on new Azure architecture</li>
+                        <li>Sanitize and maintain security of customer data</li> 
+                     </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Lintech Global</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Junior Network Admin</span> 
+                            <span class="resume-block__header-date">
+                                2021 - 2022
+                            </span>
+                        </p>
+                    </div>
+
+                    <p>
+                        <li>Install, support, and maintain network infrastructure using Brocade</li>
+                        <li>Verify Network connection across the networks at multiple customer sites</li>
+                        <li>Enforce security policies across the network</li>
+                        <li>Assist in project planning, implementation, and maintenance </li>
+                        <li>Identify and maintain proper printer DHCP pool</li>
+                        <li>Maintain proper workflow for Service Now ticketing system</li>
+                        <li>Troubleshoot Windows OS, Network printers for end users</li>
+                        <li>Uphold highest standard in customer satisfaction</li>
+                     </p>
+
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">United States Army Reserve: SPC, 363rd Quartermaster Battalion</h4>
+                        <p class="resume-block__header-meta">
+                            <span>IT Specialist</span> 
+                            <span class="resume-block__header-date">
+                                2019 - Present
+                            </span>
+                        </p>
+                    </div>
+        
+                    <p>
+                        <li>Implement and Maintain IT management and monitoring virus protection software</li>
+                        <li>Performs routine network startup and shutdown procedures</li>
+                        <li>Monitor network performance and documents if/when changes need to be made</li>
+                        <li>Perform technical team leadership role in a matrixed environment for network support and Project-based</li>
+                        <li>Help manage over 100 email accounts</li>
+                        <li>Provide level 1 & 2 help desk support to over 100 users</li>
+                     </p>
+        
+                </div> <!-- end resume-block -->
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Home Pro</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Cable Technician</span> 
+                            <span class="resume-block__header-date">
+                                2020 - 2021
+                            </span>
+                        </p>
+                    </div>
+                
+                    <p>
+                        <li>Install and perform troubleshooting of fiber‐based cable, phone, CAT 5‐6 cables</li>
+                        <li>Handle 10‐20 plus service calls with 99% satisfaction from customers daily</li>
+                        <li>Trained several techs in company standards</li>
+                        <li>Maintained company best practices</li>
+                        <li>Inspect, install, and repair cable, internet and phone services via wireless, coaxial and CAT connections</li>
+                        <li>Educate customers on company policies as well as data cable standards</li>
+                     </p>
+                
+                </div> <!-- end resume-block -->
+            </div>
+        </div> <!-- s-resume__section -->
+
+        <div id="certifications" class="row s-resume__section">
+            <div class="column large-3 tab-12">
+                <h3 class="section-header-allcaps">Certifications</h3>
+            </div>
+            <div class="column large-9 tab-12">
+                <div class="resume-block">
+
+                    <ul class="skill-bars-fat">
+                        
+                        
+                        <li>
+                        <h4>- AWS Cloud Practitioner</h4>
+                        </li>
+                        <li>
+                        <h4>- LPI Linux Essentials</h4>
+                        </li>
+                        <li>
+                        <h4>- Comptia Network Plus</h4>
+                        </li>
+                        <li>
+                        <h4>- Comptia Security Plus</h4>
+                        </li>
+                    </ul>
+
+                </div> <!-- end resume-block -->
+
+            </div>
+        </div> <!-- s-resume__section -->
+</body>
