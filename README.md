@@ -15,4 +15,5 @@ https://www.styleshout.com/
 
 ## Documentation
 https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
+
 https://registry.terraform.io/
