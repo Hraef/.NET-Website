@@ -1,9 +1,18 @@
 # .NET Portfolio Website
 
-This website is my personal portfolio. It consitists of .NET, Javascript, html and CSS.
-The Template of the website was orginally created by Ceevee from https://www.styleshout.com/
-## Resources
-https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
+This website is my personal portfolio and you can find it here! 
 
-# Future plans
-This current website is not hosted anywhere but I do plan on deploying it to Azure using Terraform.
+https://www.harmonraef.com/
+
+## What I Used
+This project was deployed to Azure using Terraform. The configuration is for a Linux web app using Dotnetcore -6.0 as it's runtime Stack. The web app is configured to use a custom domain that I bought from 
+
+https://www.namecheap.com/
+
+The Template of the website was orginally created by Ceevee from 
+
+https://www.styleshout.com/
+
+## Documentation
+https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
+https://registry.terraform.io/
