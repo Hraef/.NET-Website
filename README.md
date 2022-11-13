@@ -9,6 +9,7 @@ This project was deployed to Azure using Terraform. The configuration is for a L
 
 https://www.namecheap.com/
 
+I used a fairly simple architecture for the Azure resources. It has a resource group that conssists of a app service plan and a web app.
 Github Actions is being used for the CI/CD.
 The Template of the website was orginally created by Ceevee from 
 
