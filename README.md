@@ -9,6 +9,7 @@ This project was deployed to Azure using Terraform. The configuration is for a L
 
 https://www.namecheap.com/
 
+Github Actions is being used for the CI/CD.
 The Template of the website was orginally created by Ceevee from 
 
 https://www.styleshout.com/
@@ -17,3 +18,5 @@ https://www.styleshout.com/
 https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0
 
 https://registry.terraform.io/
+
+https://docs.github.com/en/actions
